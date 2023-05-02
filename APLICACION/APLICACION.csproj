@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="COMMONS\" />
+    <Folder Include="DTOS\" />
+    <Folder Include="EXTENSIONES\" />
+    <Folder Include="INTERFACES\" />
+    <Folder Include="VALIDACIONES\" />
+    <Folder Include="SERVICIOS\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DOMINIO\DOMINIO.csproj" />
+    <ProjectReference Include="..\INFRAESTRUCTURA\INFRAESTRUCTURA.csproj" />
+    <ProjectReference Include="..\UTLIDADES\UTLIDADES.csproj" />
+  </ItemGroup>
+
+</Project>
